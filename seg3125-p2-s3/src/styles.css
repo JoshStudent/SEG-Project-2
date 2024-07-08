@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #000435;
+    background: #03001e;
     font-family: sans-serif;
     margin-right: 20px;
     margin-left: 20px;
@@ -28,6 +28,7 @@ h2 {
 h3 {
     margin-top: 0;
     font-size: 18px;
+    color:white;
 }
 
 h4 {
@@ -104,6 +105,70 @@ li a:hover {
     text-align: center;
 }
 
+.featured {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #999;
+}
+
+.featured p {
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+
+.news {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #999;
+}
+
+.news p {
+    margin-top: -10px;
+    margin-bottom: 5px;
+    border-left: 5px solid white;
+    border-radius: 5px;
+    padding-left: 2px;
+}
+
+.request {
+
+}
+
 .gallery-item {
     margin: 5px;
+}
+
+.artist {
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 3px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.artist p {
+    margin-top: -15px;
+}
+
+.news-section {
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 3px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.news-section h3 {
+    border-bottom: 1px solid #999;
+}
+
+.req-form {
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 3px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+label {
+    color:white;
 }
